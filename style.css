@@ -1,0 +1,234 @@
+body{
+    background-color: black;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/banner.jpg), linear-gradient(7deg, rgba(0, 0, 0, 0.8500) 10.00%, rgba(0, 0, 0, 0.8465) 17.25%, rgba(0, 0, 0, 0.8361) 24.50%, rgba(0, 0, 0, 0.8187) 31.75%, rgba(0, 0, 0, 0.7944) 39.00%, rgba(0, 0, 0, 0.7632) 46.25%, rgba(0, 0, 0, 0.7250) 53.50%, rgba(0, 0, 0, 0.6868) 60.75%, rgba(0, 0, 0, 0.6556) 68.00%, rgba(0, 0, 0, 0.6312) 75.25%, rgba(0, 0, 0, 0.6139) 82.50%, rgba(0, 0, 0, 0.6035) 89.75%, rgba(0, 0, 0, 0.6000) 97.00%);
+    background-position: center, center;
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    flex-direction: column;
+  }
+
+.collapse{
+    justify-content: end;
+}
+.navbar-nav li{
+    color: yellowgreen;
+}
+.nav-item1{
+    border: 2px solid white;
+    margin: 6px;
+    padding: 2px;
+    border-radius: 8px;
+    padding: 0px 4px;
+}
+.nav-item a{
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 600;
+}
+.nav-item2{
+    background-color: #C11119;
+    border-radius: 8px;
+    color: #C11119;
+    margin: 6px;
+    padding: 2px;
+    padding: 0px 4px;
+}
+
+.main-heading {
+    height: 300px;
+    width: 50vw;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 120px;
+  }
+  .main-heading h1 {
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    font-size: 70px;
+  }
+  .main-heading p {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .main-search {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+  }
+  .navbar-toggler{
+    background-color: white !important;
+  }
+  .navbar-toggler-icon{
+    color: #fff !important;
+  }
+  .main-search-sub {
+    width: 500px;
+    border: 2px solid white;
+    height: 40px;
+  }
+  .main-btn {
+    background-color: #e50914;
+    color: white;
+    font-weight: 400;
+    border: 2px solid #e50914;
+    width: 200px;
+    height: 40px;
+  }
+  .navbar-toggler{
+    background-color: white !important;
+  }
+  .navbar-toggler-icon{
+    color: #fff !important;
+  }
+  .main-search-sub {
+    width: 500px;
+    border: 2px solid white;
+    height: 60px;
+  }
+  .main-btn {
+    background-color: #e50914;
+    color: white;
+    font-weight: 400;
+    border: 2px solid #e50914;
+    width: 200px;
+    height: 60px;
+  }
+  ::placeholder {
+    color: white;
+    
+    padding: 5px;
+  }
+
+  .section2{
+    color: white;
+    margin-top: 30px;
+  }
+  .faq {
+   width: 100%;
+    margin-bottom: 3px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+   
+  }
+  .faq h1 {
+    padding: 1em;
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+  }
+  .btn-faq {
+    background-color: #434343;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 1em;
+    align-items: center;
+    font-size: large;
+    font-weight: 400;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .main-heading {
+      height: 250px;
+    }
+    .main-heading h1 {
+      font-size: 2.5em;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .main-heading {
+      height: 200px;
+    }
+    .main-heading h1 {
+      font-size: 2em;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .main-heading {
+      height: 150px;
+    }
+    .main-heading h1 {
+      font-size: 1.5em;
+    }
+  }
+  
+  /* Section 2 Styles */
+  
+  .section2 {
+    margin-top: 2em;
+  }
+  
+  .section2 h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Section 3 Styles */
+  
+  .section3 {
+    margin-top: 2em;
+  }
+  
+  .card {
+    background-color: #333;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .card p {
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+  
+  /* Section 4 Styles */
+  
+  .section4 {
+    margin-top: 2em;
+  }
+  
+  .card {
+    background-color: #333;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    box-shadow}
+  
